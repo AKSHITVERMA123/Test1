@@ -11,5 +11,5 @@ function DecCount()
 {
     count--;
     console.log(count);
-    document.getElementById("Decrement").innerHTML=count;
+    document.getElementById("Increment").innerHTML=count;
 }
