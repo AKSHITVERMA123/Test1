@@ -1,2 +1,2 @@
-let a = document.getElementsByName("SUBMIT").length=10;
+let a = document.getElementsByName("SUBMIT").length;
 console.log(a);
