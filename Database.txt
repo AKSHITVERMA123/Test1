@@ -1,0 +1,42 @@
+
+desc car;
+
+Column name  		 Type		Null 	     Key 	 	Default 		 Extra
+
+CarId			int(11)		NO	     PRI		auto_increment
+Brand			varchar(50)	YES			
+CarName			varchar(50)	YES			
+Mileage			decimal(10,2)	YES			
+CarType			varchar(50)	YES			
+
+
+desc Tata;
+
++---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
+ |	Column name       |       Type       |	                    Null          |            Key             |    Default     |      Extra         |
++---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
+Id			int(11)	       	NO	     PRI  		auto_increment
+CarId			int(11)		YES	     MUL		
+CarName			varchar(50)	YES			
+CarType			varchar(50)	YES			
+CarFuelType		varchar(50)	YES			
+mileage			decimal(10,2)	YES			
+NcapRating		double		YES			
+buildYear			int		YES			
+length			decimal(10,2)	YES			
+cost			decimal(10,2)	YES
+topspeed			int(11)		YES
+torque			int(11)		YES
+bootspace			int(11)		YES
++-------------+--------------+------+-----+---------+----------------+-------------+--------------+------+-----+---------+------+
+
+
+
+
+
++------------------+
+| Tables_in_cars   |
++------------------+
+| userlogin        |
+| userregistration |
++------------------+
