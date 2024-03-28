@@ -120,23 +120,26 @@ form {
 }
 
 .row {
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .label {
-    width: 30%;
+    /* width: 30%; */
     font-weight: bold;
 }
 
-.input {
-    width: 70%;
+.row .input {
+    width: 60%;
 }
 
+.input label img:hover{
+ background: none;
+}
 input[type=text], input[type=password], input[type=email] {
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
     border: 1px solid orange;
     background: #f1f1f1;
 }

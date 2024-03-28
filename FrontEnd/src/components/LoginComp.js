@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { Button } from '@mui/material';
-import './external.css';
+// import { Button } from '@mui/material';
+// import './external.css';
 import { useNavigate } from 'react-router-dom';
 import axios  from 'axios';
 // import * as React from 'react';
@@ -26,8 +26,8 @@ const LoginComp = () => {
     const nav=useNavigate();
 
     const getData = () => {
-             console.log(uid.current.value);
-             console.log(upass.current.value);
+             console.log(id.current.value);
+             console.log(pass.current.value);
          let uId = id.current.value;
          let uPass = password.current.value;
          axios.get("http://localhost:8888/users").then((res) =>{
@@ -35,7 +35,7 @@ const LoginComp = () => {
             Udata=res.data;
             const ValidUser = Udata.filter((val) => { return val.userid === uId && val.userpass===uPass});
         if(ValidUser.length > 0){
-            nav("/SignUp");
+            nav("/Register");
             sessionStorage().setItem("user",uId);
         }
         else{
@@ -58,8 +58,8 @@ const LoginComp = () => {
 
         <div className='d-grid'>
         {/* <button type='button' className = "btn btn-primary mt-3 mb-2">Login</button> */}
-        
-        <Button variant='outlined' onClick={getData} style={{width: "20px" , marginLeft : "650px"}} >Login</Button>
+    
+        <button variant='outlined' onClick={getData} style={{width: "20px" , marginLeft : "650px"}} >Login</button>
         </div>
         </form>
         </div>

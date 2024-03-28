@@ -1,13 +1,13 @@
 
 import React from 'react';
-
+import TataTiago from '../assets/images/TataTigorCar.jpg';
 class TataTiagoDescriptionComp extends React.Component {
     render() {
         return (
             <div>
                 <h1>Tata Tiago</h1>
                 
-                <img src="tata_tiago_image.jpg" alt="Tata Tiago" />
+                <img src={TataTiago} alt="Tata Tiago" />
 
                 <h2>Specifications</h2>
                 <ul>
