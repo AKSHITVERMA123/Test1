@@ -1,142 +1,140 @@
 
 desc car;
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
- |           Column name             |       Type       |	                    Null          |            Key             |    Default     |      Extra         |
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
-CarId			int(11)		NO	     PRI		auto_increment
-Brand			varchar(50)	YES			
-CarName			varchar(50)	YES			
-Mileage			double		YES			
-CarType			varchar(50)	YES	
++---------------------------------+------------------+--------------------------+--------------------+--------------------------+-----------------+
+ |           Column name             |       Type             |                 Null             |           Key            |    Default     	            |      Extra           |
++---------------------------------+------------------+--------------------------+--------------------+--------------------------+-----------------+
+CarId		           |   int(11)  	|	NO	|           PRI	            |	auto_increment     |		|
+Brand		           |   varchar(50)	|	YES	|	            |		            |		|
+CarName		           |   varchar(50)	|   	YES	|	            |	 	            |		|
+Mileage		           |   double	|	YES	|	            |		            |		|
+CarType		           |   varchar(50)	|	YES	|  	            |		            |		|
++---------------------------------+------------------+--------------------------+--------------------+--------------------------+-----------------+
 5 rows in set (0.03 sec)		
-
 
 desc Tata;
 
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
- |           Column name             |       Type       |	                    Null          |            Key             |    Default     |      Extra         |
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
-Id			int(11)	       	NO	     PRI  		auto_increment
-CarId			int(11)		YES	     MUL		
-CarName			varchar(50)	YES			
-CarType			varchar(50)	YES			
-CarFuelType		varchar(50)	YES			
-mileage			double		YES			
-NcapRating		double		YES			
-buildYear			int		YES			
-length			double		YES			
-cost			double		YES
-topspeed			int(11)		YES
-torque			int(11)		YES
-bootspace			int(11)		YES
-+-------------+--------------+------+-----+---------+----------------+-------------+--------------+------+-----+---------+------+
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+ |           Column name   |       Type       |   	   Null         |            Key             |    Default     	        |      Extra         |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+Id	                    |   int(11)       |            NO	|     PRI   	             |    auto_increment  |	             |
+CarId                              |   int(11)	    |           YES	|     MUL	             |		       |	             |
+CarName		 | varchar(50) |           YES	|	             |		       |	             |
+CarType		 | varchar(50) |           YES	|	             |		       |	             |
+CarFuelType	 | varchar(50) |           YES	|	             |		       |	             |
+mileage		 |   double	    |           YES	|	             |		       |	             |
+NcapRating	 |   double	    |           YES	|	             |		       |	             |
+buildYear		 |   int	    |           YES	|	             |		       |	             |
+length		 |  double	    |           YES	|	             |		       |	             |
+cost		 |  double	    |           YES	|	             |		       |	             |
+topspeed		 |  int(11)	    |           YES	|	             |		       |	             |
+torque		 |  int(11)    	    |           YES	|	             |		       |	             |
+bootspace		 |  int(11)	    |           YES	|	             |		       |	             |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
 
 
 desc Suzuki;
 
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
- |           Column name             |       Type       |	                    Null          |            Key             |    Default     |      Extra         |
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
-Id			int(11)	       	NO	     PRI  		auto_increment
-CarId			int(11)		YES	     MUL		
-CarName			varchar(50)	YES			
-CarType			varchar(50)	YES			
-CarFuelType		varchar(50)	YES			
-mileage			double		YES			
-NcapRating		double		YES			
-buildYear			int		YES			
-length			double		YES			
-cost			double		YES
-topspeed			int(11)		YES
-torque			int(11)		YES
-bootspace			int(11)		YES
-+-------------+--------------+------+-----+---------+----------------+-------------+--------------+------+-----+---------+------+
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+ |           Column name   |       Type       |   	   Null         |            Key             |    Default     	        |      Extra         |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+Id	                    |   int(11)       |            NO	|     PRI   	             |    auto_increment  |	             |
+CarId                              |   int(11)	    |           YES	|     MUL	             |		       |	             |
+CarName		 | varchar(50) |           YES	|	             |		       |	             |
+CarType		 | varchar(50) |           YES	|	             |		       |	             |
+CarFuelType	 | varchar(50) |           YES	|	             |		       |	             |
+mileage		 |   double	    |           YES	|	             |		       |	             |
+NcapRating	 |   double	    |           YES	|	             |		       |	             |
+buildYear		 |   int	    |           YES	|	             |		       |	             |
+length		 |  double	    |           YES	|	             |		       |	             |
+cost		 |  double	    |           YES	|	             |		       |	             |
+topspeed		 |  int(11)	    |           YES	|	             |		       |	             |
+torque		 |  int(11)    	    |           YES	|	             |		       |	             |
+bootspace		 |  int(11)	    |           YES	|	             |		       |	             |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
 
 
 desc Mahindra;
 
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
- |           Column name             |       Type       |	                    Null          |            Key             |    Default     |      Extra         |
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
-Id			int(11)	       	NO	     PRI  		auto_increment
-CarId			int(11)		YES	     MUL		
-CarName			varchar(50)	YES			
-CarType			varchar(50)	YES			
-CarFuelType		varchar(50)	YES			
-mileage			double		YES			
-NcapRating		double		YES			
-buildYear			int		YES			
-length			double		YES			
-cost			double		YES
-topspeed			int(11)		YES
-torque			int(11)		YES
-bootspace			int(11)		YES
-+-------------+--------------+------+-----+---------+----------------+-------------+--------------+------+-----+---------+------+
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+ |           Column name   |       Type       |   	   Null         |            Key             |    Default     	        |      Extra         |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+Id	                    |   int(11)       |            NO	|     PRI   	             |    auto_increment  |	             |
+CarId                              |   int(11)	    |           YES	|     MUL	             |		       |	             |
+CarName		 | varchar(50) |           YES	|	             |		       |	             |
+CarType		 | varchar(50) |           YES	|	             |		       |	             |
+CarFuelType	 | varchar(50) |           YES	|	             |		       |	             |
+mileage		 |   double	    |           YES	|	             |		       |	             |
+NcapRating	 |   double	    |           YES	|	             |		       |	             |
+buildYear		 |   int	    |           YES	|	             |		       |	             |
+length		 |  double	    |           YES	|	             |		       |	             |
+cost		 |  double	    |           YES	|	             |		       |	             |
+topspeed		 |  int(11)	    |           YES	|	             |		       |	             |
+torque		 |  int(11)    	    |           YES	|	             |		       |	             |
+bootspace		 |  int(11)	    |           YES	|	             |		       |	             |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
 
 
 desc Hyundai;
 
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
- |           Column name             |       Type       |	                    Null          |            Key             |    Default     |      Extra         |
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
-Id			int(11)	       	NO	     PRI  		auto_increment
-CarId			int(11)		YES	     MUL		
-CarName			varchar(50)	YES			
-CarType			varchar(50)	YES			
-CarFuelType		varchar(50)	YES			
-mileage			double		YES			
-NcapRating		double		YES			
-buildYear			int		YES			
-length			double		YES			
-cost			double		YES
-topspeed			int(11)		YES
-torque			int(11)		YES
-bootspace			int(11)		YES
-+-------------+--------------+------+-----+---------+----------------+-------------+--------------+------+-----+---------+------+
-
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+ |           Column name   |       Type       |   	   Null         |            Key             |    Default     	        |      Extra         |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+Id	                    |   int(11)       |            NO	|     PRI   	             |    auto_increment  |	             |
+CarId                              |   int(11)	    |           YES	|     MUL	             |		       |	             |
+CarName		 | varchar(50) |           YES	|	             |		       |	             |
+CarType		 | varchar(50) |           YES	|	             |		       |	             |
+CarFuelType	 | varchar(50) |           YES	|	             |		       |	             |
+mileage		 |   double	    |           YES	|	             |		       |	             |
+NcapRating	 |   double	    |           YES	|	             |		       |	             |
+buildYear		 |   int	    |           YES	|	             |		       |	             |
+length		 |  double	    |           YES	|	             |		       |	             |
+cost		 |  double	    |           YES	|	             |		       |	             |
+topspeed		 |  int(11)	    |           YES	|	             |		       |	             |
+torque		 |  int(11)    	    |           YES	|	             |		       |	             |
+bootspace		 |  int(11)	    |           YES	|	             |		       |	             |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
 
 desc Skoda;
 
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
- |           Column name             |       Type       |	                    Null          |            Key             |    Default     |      Extra         |
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
-Id			int(11)	       	NO	     PRI  		auto_increment
-CarId			int(11)		YES	     MUL		
-CarName			varchar(50)	YES			
-CarType			varchar(50)	YES			
-CarFuelType		varchar(50)	YES			
-mileage			double		YES			
-NcapRating		double		YES			
-buildYear			int		YES			
-length			double		YES			
-cost			double		YES
-topspeed			int(11)		YES
-torque			int(11)		YES
-bootspace			int(11)		YES
-+-------------+--------------+------+-----+---------+----------------+-------------+--------------+------+-----+---------+------+
-
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+ |           Column name   |       Type       |   	   Null         |            Key             |    Default     	        |      Extra         |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+Id	                    |   int(11)       |            NO	|     PRI   	             |    auto_increment  |	             |
+CarId                              |   int(11)	    |           YES	|     MUL	             |		       |	             |
+CarName		 | varchar(50) |           YES	|	             |		       |	             |
+CarType		 | varchar(50) |           YES	|	             |		       |	             |
+CarFuelType	 | varchar(50) |           YES	|	             |		       |	             |
+mileage		 |   double	    |           YES	|	             |		       |	             |
+NcapRating	 |   double	    |           YES	|	             |		       |	             |
+buildYear		 |   int	    |           YES	|	             |		       |	             |
+length		 |  double	    |           YES	|	             |		       |	             |
+cost		 |  double	    |           YES	|	             |		       |	             |
+topspeed		 |  int(11)	    |           YES	|	             |		       |	             |
+torque		 |  int(11)    	    |           YES	|	             |		       |	             |
+bootspace		 |  int(11)	    |           YES	|	             |		       |	             |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
 
 desc Kia;
 
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
- |           Column name             |       Type       |	                    Null          |            Key             |    Default     |      Extra         |
-+---------------------------------+--------------+-----------------------------+---------------------+--------------+----------------+
-Id			int(11)	       	NO	     PRI  		auto_increment
-CarId			int(11)		YES	     MUL		
-CarName			varchar(50)	YES			
-CarType			varchar(50)	YES			
-CarFuelType		varchar(50)	YES			
-mileage			double		YES			
-NcapRating		double		YES			
-buildYear			int		YES			
-length			double		YES			
-cost			double		YES
-topspeed			int(11)		YES
-torque			int(11)		YES
-bootspace			int(11)		YES
-+-------------+--------------+------+-----+---------+----------------+-------------+--------------+------+-----+---------+------+
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+ |           Column name   |       Type       |   	   Null         |            Key             |    Default     	        |      Extra         |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
+Id	                    |   int(11)       |            NO	|     PRI   	             |    auto_increment  |	             |
+CarId                              |   int(11)	    |           YES	|     MUL	             |		       |	             |
+CarName		 | varchar(50) |           YES	|	             |		       |	             |
+CarType		 | varchar(50) |           YES	|	             |		       |	             |
+CarFuelType	 | varchar(50) |           YES	|	             |		       |	             |
+mileage		 |   double	    |           YES	|	             |		       |	             |
+NcapRating	 |   double	    |           YES	|	             |		       |	             |
+buildYear		 |   int	    |           YES	|	             |		       |	             |
+length		 |  double	    |           YES	|	             |		       |	             |
+cost		 |  double	    |           YES	|	             |		       |	             |
+topspeed		 |  int(11)	    |           YES	|	             |		       |	             |
+torque		 |  int(11)    	    |           YES	|	             |		       |	             |
+bootspace		 |  int(11)	    |           YES	|	             |		       |	             |
++--------------------------+--------------+-----------------------+---------------------+----------------------+----------------+
 
-desc userregistration;
+desc user;
 
 +----------------------+---------------+----------+----------+----------------+----------+
 |     Field                    |      Type         |     Null    |     Key    |     Default      |    Extra   |
@@ -149,32 +147,18 @@ desc userregistration;
 +----------------------+---------------+---------+------------+---------------+-----------+
 5 rows in set (0.13 sec)
 
-desc userlogin;
-
-+--------- ----+-----------------+----------+----------+----------------+------------------ +
-|     Field        |      Type            |     Null    |     Key    |     Default      |      Extra             |
-+-------------+---------------- -+----------+----------+----------------+-------------------+
-| Loginid       | int(11)              | NO         | PRI        | NULL             | auto_increment |
-| Uid     	  | int(11)              | YES        | MUL     | NULL             |                            |
-| username    | varchar(30)      | YES        |               | NULL             |                            |
-| password    | varchar(30)      | YES        |               | NULL             |                            |
-+-------------+-----------------+-----------+---------+-----------------+------------------+
-4 rows in set (0.05 sec)
-
 
 show tables;
 
-+------------------+
-| Tables_in_cars   |
-+------------------+
-| car          	          |
-| hyundai               |
-| kia                       |
-| mahindra             |
-| skoda                   |
-| suzuki                  |
-| tata                       |
-| userlogin             |
-| userregistration   |
-+------------------+
-9 rows in set (0.19 sec)
++-----------------+
+| Tables_in_cars |
++-----------------+
+| car        	        |
+| hyundai            |
+| kia           	       |
+| mahindra         |
+| skoda               |
+| suzuki             |
+| tata                  |
++----------------+
+7 rows in set (0.03 sec)

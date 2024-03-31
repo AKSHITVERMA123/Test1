@@ -1,7 +1,9 @@
 import React from 'react';
 import Nexon from '../assets/images/NexonCar2.jpg';
 import '../components/style.css';
+
 const CarDescriptionComp = () => {
+
     return (
         <div>
             <div className="C1" style={{width: "100%"}}>

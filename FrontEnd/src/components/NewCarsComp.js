@@ -9,7 +9,6 @@ const NewCarsComp = () => {
         document.write("<h3>Maruti Ertiga</h3>");
     let images=document.getElementById("SuzukiCar").insertAdjacentHTML(0);
         document.write(images);
-            // document.getElementById("SuzukiCar").innerHTML="<img src='D:/A Assignment/WBT (Web Based Technology)/WebDevelopement/reactpro/src/assests/images/MarutiSuzukiCar.jpg' title='Maruti Suzuki Car Image' alt='Maruti Suzuki Car Image' style='height:150px, width:150px'></img>"
        }      
     return (
 

@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-
 import './components/style.css';
 import Search from './components/Search';
 import SideNavBarComp from './components/SideNavBarComp';
@@ -10,10 +9,7 @@ import MahindraComp from './components/MahindraComp';
 import KIAComp from './components/KIAComp';
 import HyundaiComp from './components/HyundaiComp';
 import SkodaComp from './components/SkodaComp';
-import New1carsComp from './components/New1carsComp';
-import NewCars1Comp from './components/NewCars1Comp';
 import SignUpComp from './components/SignUpComp';
-import CarImageComp from './components/CarImageComp';
 import NewCarsComp from './components/NewCarsComp';
 import Logo from './assets/images/LogoForASVCars3.jpeg';
 import LoginSmallPopup from './components/LoginSmallPopup';
@@ -42,6 +38,30 @@ import CompareByLength from './components/CompareByLength';
 import CompareByMileage from './components/CompareByMileage';
 import CompareByTorque from './components/CompareByTorque';
 import CompareByTopSpeed from './components/CompareByTopSpeed';
+import TataPunchDescriptionComp from './components/TATAPunchDescriptionComp';
+import MahindraBoleroNeoDescComp from './components/MahindraBoleroNeoDescComp';
+import TATAtiagoDescriptionComp from './components/TATAtiagoDescriptionComp';
+import HyundaiI20DescriptionComp from './components/HyundaiI20DescriptionComp';
+import HyundaiVenueDescriptionComp from './components/HyundaiVenueDescriptionComp';
+import HyundaiVernaDescriptionComp from './components/HyundaiVernaDescriptionComp';
+import HyundaiCretaDescriptionComp from './components/HyundaiCretaDescriptionComp';
+import KIASeltosDescriptionComp from './components/KIASeltosDescriptionComp';
+import KIACarensDescriptionComp from './components/KIACarensDescriptionComp';
+import KIACarnivalDescriptionComp from './components/KIACarnivalDescriptionComp';
+import KIAEV6DescriptionComp from './components/KIAEV6DescriptionComp';
+import Mahindratharcomp from './components/Mahindratharcomp';
+import TATATigorDescriptionComp from './components/TATATigorDescriptionComp';
+import MahindraXUV700DescriptionComp from './components/MahindraXUV700DescriptionComp';
+import MahindraTUV300DescriptionComp from './components/MahindraTUV300DescriptionComp';
+import SuzukiDzireDescComp from './components/SuzukiDzireDescComp';
+import SuzukiEECODescComp from './components/SuzukiEECODescComp';
+import SuzukiErtigaDescComp from './components/SuzukiErtigaDescComp';
+import SuzukiCelerioDescComp from './components/SuzukiCelerioDescComp';
+import SkodaOctiviaDescriptionComp from './components/SkodaOctiviaDescriptionComp';
+import SkodaKodiaqDescriptionComp from './components/SkodaKodiaqDescriptionComp';
+import SkodaSlaviaDescriptionComp from './components/SkodaSlaviaDescriptionComp';
+import SkodaKushaqDescriptionComp from './components/SkodaKushaqDescriptionComp';
+
 function App() {
 
   return (
@@ -51,11 +71,8 @@ function App() {
     <h2 style={{fontSize :"30px",  alignItems : "center"}}><strong>ASV Cars For Searching and Compare the best Cars</strong></h2>
     <ul className='navbar'>
          <li><a href="#home" class="active">Home</a></li>
-         <li><a href="#cars">Cars</a></li>
-         {/* <li><a href="#about">About</a></li>   */}
-         {/* <li><a href="#service">Services</a></li> */}
-         <li><a href="#newCars">New Cars</a></li>
-         {/* <li><a href="#compareCars">Compare Cars</a></li> */}
+         <li><a href="#cars">NewCars</a></li>
+         <li><a href="#123cars">Compare Cars</a></li>
          </ul>
     </p>
 
@@ -225,37 +242,31 @@ function App() {
     </Routes>
     </BrowserRouter>
     <BrowserRouter>
-  <div style={{color: "red"}}>
-  <New1carsComp/>
-  </div>
-  
     <Routes>
-    <Route path="/NewCars1" element={<NewCars1Comp/>}>
-      </Route>
-      <Route path="/TATA/CarImagenexon" element={<CarImageComp name='nexon'/>}/>
-      <Route path="/TATA/CarImagetiago" element={<CarImageComp name='tiago'/>}/>
-      <Route path="/TATA/CarImagepunch" element={<CarImageComp name='punch'/>}/>
-      <Route path="/TATA/CarImagetigor" element={<CarImageComp name='tigor'/>}/>
-      <Route path="/Suzuki/CarImageertiga" element={<CarImageComp name='ertiga'/>}/>
-      <Route path="/Suzuki/CarImagecelerio" element={<CarImageComp name='celerio'/>}/>
-      <Route path="/Suzuki/CarImagedzire" element={<CarImageComp name='dzire'/>}/>
-      <Route path="/Suzuki/CarImageeeco" element={<CarImageComp name='eeco'/>}/>
-      <Route path="/Mahindra/CarImagethar" element={<CarImageComp name='thar'/>}/>
-      <Route path="/Mahindra/CarImagebolero" element={<CarImageComp name='bolero'/>}/>
-      <Route path="/Mahindra/CarImagexuv700" element={<CarImageComp name='xuv700'/>}/>
-      <Route path="/Mahindra/CarImagetuv300" element={<CarImageComp name='tuv300'/>}/>
-      <Route path="/Hyundai/CarImagei20" element={<CarImageComp name='i20'/>}/>
-      <Route path="/Hyundai/CarImagevenue" element={<CarImageComp name='venue'/>}/>
-      <Route path="/Hyundai/CarImagecreta" element={<CarImageComp name='creta'/>}/>
-      <Route path="/Hyundai/CarImageverna" element={<CarImageComp name='verna'/>}/>
-      <Route path="/Skoda/CarImageoctivia" element={<CarImageComp name='octivia'/>}/>
-      <Route path="/Skoda/CarImagekushaq" element={<CarImageComp name='kushaq'/>}/>
-      <Route path="/Skoda/CarImagekodiaq" element={<CarImageComp name='kodiaq'/>}/>
-      <Route path="/Skoda/CarImageslavia" element={<CarImageComp name='slavia'/>}/>
-      <Route path="/Kia/CarImagecarens" element={<CarImageComp name='carens'/>}/>
-      <Route path="/Kia/CarImageseltos" element={<CarImageComp name='seltos'/>}/>
-      <Route path="/Kia/CarImagecarnival" element={<CarImageComp name='carnival'/>}/>
-      <Route path="/Kia/CarImageev6" element={<CarImageComp name='ev6'/>}/>
+      <Route path="/CarDesc1" element={<TataPunchDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionPunch" element={<TataPunchDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionTiago" element={<TATAtiagoDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionTigor" element={<TATATigorDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionertiga" element={<SuzukiErtigaDescComp/>}></Route>
+      <Route path="/CarDescriptiondzire" element={<SuzukiDzireDescComp/>}></Route>
+      <Route path="/CarDescriptioncelerio" element={<SuzukiCelerioDescComp/>}></Route>
+      <Route path="/CarDescriptioneeco" element={<SuzukiEECODescComp/>}></Route>
+      <Route path="/CarDescriptionthar" element={<Mahindratharcomp/>}></Route>
+      <Route path="/CarDescriptionbolero" element={<MahindraBoleroNeoDescComp/>}></Route>
+      <Route path="/CarDescriptionxuv" element={<MahindraXUV700DescriptionComp/>}></Route>
+      <Route path="/CarDescriptiontuv" element={<MahindraTUV300DescriptionComp/>}></Route>
+      <Route path="/CarDescriptioncreta" element={<HyundaiCretaDescriptionComp/>}></Route>
+      <Route path="/CarDescriptioni20" element={<HyundaiI20DescriptionComp/>}></Route>
+      <Route path="/CarDescriptionvenue" element={<HyundaiVenueDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionverna" element={<HyundaiVernaDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionoctivia" element={<SkodaOctiviaDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionSlavia" element={<SkodaSlaviaDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionKodiaq" element={<SkodaKodiaqDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionkushaq" element={<SkodaKushaqDescriptionComp/>}></Route>
+      <Route path="/CarDescriptioncarens" element={<KIACarensDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionseltos" element={<KIASeltosDescriptionComp/>}></Route>
+      <Route path="/CarDescriptioncarnival" element={<KIACarnivalDescriptionComp/>}></Route>
+      <Route path="/CarDescriptionev6" element={<KIAEV6DescriptionComp/>}></Route>  
      </Routes>
     <div>
     <SideNavBarComp/>

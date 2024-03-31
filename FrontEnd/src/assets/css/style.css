@@ -54,29 +54,78 @@ img{
 .Image #Tiago{  
     border-radius: 50%;
     border:2px solid rgb(0, 0, 0);
-        height : 250px;
-        width : 400px;
+    height : 250px;
+    width : 400px;
 }
 
 .Image #Punch{
     border-radius: 50%;
     border:2px solid black;
-        height : 250px;
-        width : 400px;
-}
-
-.Image #TATATiago{
-    border-radius: 50%;
-    border:2px solid black;
-        height : 250px;
-        width : 400px;
+    height : 250px;
+    width : 400px;
 }
 
 .Image #TATATigor{
     border-radius: 50%;
     border:2px solid black;
-        height : 250px;
-        width : 400px;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #SuzukiCelerio{
+    alt: "SuzukiCelerio";
+    border-radius: 50%;
+    border: 2px solid black;
+    height : 235px;
+    width : 370px;
+}
+
+.Image #SuzukiErtiga{
+    alt: "SuzukiErtiga";
+    border-radius: 50%;
+    border: 2px solid black;
+    height : 235px;
+    width : 370px;
+}
+
+.Image #SuzukiDzire{
+    alt: "SuzukiDzire";
+    border-radius: 50%;
+    border: 2px solid black;
+    height : 235px;
+    width : 370px;
+}
+
+.Image #SuzukiEECO{
+    alt: "SuzukiEECO";
+    border-radius: 50%;
+    border: 2px solid black;
+    height : 235px;
+    width : 370px;
+}
+
+.Image #SuzukiCelerio:hover{
+    alt: "SuzukiCelerio";
+    height: 250px;
+    width: 380px;
+}
+
+.Image #SuzukiErtiga:hover{
+    alt: "SuzukiErtiga";
+    height: 250px;
+    width: 380px;
+}
+    
+.Image #SuzukiDzire:hover{
+    src: "SuzukiDzire";
+    height: 250px;
+    width: 380px;
+}
+
+.Image #SuzukiEECO:hover{
+    src: "SuzukiEECO";
+    height: 250px;
+    width: 380px;
 }
 
 .Image #Nexon:hover{
@@ -103,15 +152,209 @@ img{
     width: 410px;
 }
 
-.Image #MarutiSuzuki{
+.Image #Thar{
     border-radius: 50%;
     border:2px solid black;
     height : 250px;
     width : 400px;
 }
 
-.Image #MarutiSuzuki:hover{
-    src: "MarutiSuzuki";
+.Image #Thar:hover{
+    src: "Thar";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #Bolero{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #Bolero:hover{
+    src: "Bolero";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #xuv700{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #xuv700:hover{
+    src: "xuv700";
+    height: 255px;
+    width: 400px;
+}
+.Image #tuv300{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #tuv300:hover{
+    src: "tuv300";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #creta{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #creta:hover{
+    src: "creta";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #i20{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #i20:hover{
+    src: "i20";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #Venue{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #Venue:hover{
+    src: "Venue";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #Verna{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #Verna:hover{
+    src: "Verna";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #SkodaOctivia{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #SkodaOctivia:hover{
+    src: "SkodaOctivia";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #SkodaKushaq{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #SkodaKushaq:hover{
+    src: "SkodaKushaq";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #SkodaKodiaq{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #SkodaKodiaq:hover{
+    src: "SkodaKodiaq";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #SkodaSlavia{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #SkodaSlavia:hover{
+    src: "SkodaSlavia";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #KiaCarens{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #KiaCarens:hover{
+    src: "KiaCarens";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #KiaSeltos{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #KiaSeltos:hover{
+    src: "KiaSeltos";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #KiaCarnival{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #KiaCarnival:hover{
+    src: "KiaCarnival";
+    height: 255px;
+    width: 400px;
+}
+
+.Image #KiaEV6{
+    border-radius: 50%;
+    border:2px solid black;
+    height : 250px;
+    width : 400px;
+}
+
+.Image #KiaEV6:hover{
+    src: "KiaEV6";
     height: 255px;
     width: 400px;
 }
